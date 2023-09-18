@@ -1,0 +1,135 @@
+:root {
+    --colorPrincipal: rgb(219, 18, 18);
+    --colorSecundario: rgba(0, 0, 0, 0.852);
+}
+
+
+
+
+
+
+/* ---------------HEADER----------------*/
+
+
+.navbar {
+    background-color: var(--colorPrincipal)!important;
+}
+.container {
+    background: var(--colorPrincipal);
+}
+.navbar-brand  {
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+
+.navbar-toggler {
+    color: rgb(245, 245, 245);
+}
+
+
+
+
+.subTitulo h1 {
+    background-color: var(--colorPrincipal);
+    color: whitesmoke;
+    margin: 0;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 440%;
+}
+.subTitulo h2 {
+    background: var(--colorSecundario);
+    color: whitesmoke;
+    margin: 0;
+    text-align: center;
+}
+
+
+.menuEnlaces {
+    width: 100%;
+    background-color: var(--colorSecundario);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
+}
+.menuEnlaces a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------MAIN----------------*/
+
+
+
+
+main h2 {
+    background-color: var(--colorPrincipal);
+    color: whitesmoke;
+    text-align: center;
+}
+
+
+/*
+main section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+*/
+
+main div {
+    background-color: white;
+    text-align: center;
+}
+main img {
+    width: 100%;
+}
+main a {
+    color: black;
+    text-decoration: none;
+}
+main p {
+    font-weight: bold;
+    font-size: 130%;    
+}
+.articulo :hover {
+    font-weight: bold;
+    color: var(--colorPrincipal);
+}
+
+button {
+    background-color: var(--colorPrincipal);
+    border-color: whitesmoke;
+    color: whitesmoke;
+    padding: 8px;
+    padding-left: 18px;
+    padding-right: 18px;
+    margin-bottom: 10px;
+}
+
+button :hover {
+    font-weight: bold;
+}
+
+#pie {
+    max-width: 100%;
+    background-color: var(--colorSecundario);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#pie a {
+    text-decoration: none;
+    color: whitesmoke;
+}
