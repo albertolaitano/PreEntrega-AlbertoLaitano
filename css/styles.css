@@ -1,6 +1,14 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--colorFondo);
+}
+
+
 :root {
     --colorPrincipal: rgb(219, 18, 18);
     --colorSecundario: rgba(0, 0, 0, 0.852);
+    --colorFondo:rgb(234, 234, 234);
 }
 
 
@@ -61,13 +69,6 @@
 
 
 
-
-
-
-
-
-
-
 /* ---------------MAIN----------------*/
 
 
@@ -80,13 +81,6 @@ main h2 {
 }
 
 
-/*
-main section {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-*/
 
 main div {
     background-color: white;
@@ -121,7 +115,7 @@ button {
 button :hover {
     font-weight: bold;
 }
-
+/* ---------------FOOTER----------------*/
 #pie {
     max-width: 100%;
     background-color: var(--colorSecundario);
@@ -133,3 +127,45 @@ button :hover {
     text-decoration: none;
     color: whitesmoke;
 }
+
+
+
+/* ---------------CONTACTO----------------*/
+
+.formularioContacto {
+    margin: 10px;
+}
+
+
+
+
+/* ---------------UBICACION----------------*/
+
+.ubicacion {
+    background-color: var(--colorFondo);
+}
+.ubicacion h2 {
+    text-align: start;
+}
+.ubicacion h3 {
+    margin-left: 60%;
+    background-color: var(--colorPrincipal);
+    color: whitesmoke;
+}
+.ubicacion table {
+    margin: auto;
+}
+.ubicacion iframe {
+    max-width: 100%;
+}
+
+
+
+
+
+/* ---------------NOSOTROS----------------*/
+
+.parrafo {
+    font-size: medium;
+    font-weight: lighter;
+ }
