@@ -11,13 +11,13 @@
 <body>
 
     <header>
-      <section class="container" id="redes">
-        <div class="row">
-            <div class="col-4"><a href="https://www.instagram.com/casaruy/"><i class="bi bi-instagram"></i></a></div>
-            <div class="col-4"><a href="https://m.facebook.com/p/Casa-Ruy-100064864756439/"><i class="bi bi-facebook"></i></a></div>
-            <div class="col-4"><a href=""><i class="bi bi-whatsapp"></i></a></div>
-        </div>
-    </section>
+        <section class="container" id="redes">
+            <div class="row">
+                <div class="col-4"><a href="https://www.instagram.com/casaruy/"><i class="bi bi-instagram"></i></a></div>
+                <div class="col-4"><a href="https://m.facebook.com/p/Casa-Ruy-100064864756439/"><i class="bi bi-facebook"></i></a></div>
+                <div class="col-4"><a href=""><i class="bi bi-whatsapp"></i></a></div>
+            </div>
+        </section>
         
     <nav class="navbar navbar-expand-lg">
         <div class="container">
@@ -85,94 +85,89 @@
         <div class="menuEnlaces">
             <a href="../index.html">Inicio</a>
             <a href="ubicacion.html">Ubicación</a>
+            <a href="contacto.html">Contacto</a>
             <a href="nosotros.html">Nosotros</a>
             <a href="">Novedades</a>
             <a href="">Marcas</a>
         </div>
       </section>
     </header>
-   
 
-   <section>
-    <form class="row g-3">
-        <div class="col-12">
-            <label for="inputName" class="form-label">Nombre completo</label>
-            <input type="text" class="form-control" id="inputName" placeholder="Ingrese su nombre">
-          </div>
-        <div class="col-md-6">
-          <label for="inputEmail" class="form-label">Email</label>
-          <input type="email" class="form-control" id="inputEmail" placeholder="ejemplo@gmail.com">
+    <section class="ayuda">
+        <h2>¿Cómo podemos ayudar?</h2>
+        <div class="menuEnlaces">  
+        <a href="#seccionPagos">Pagos</a>
+        <a href="#seccionEnvios">Envíos</a>
+        <a href="#seccionGarantia">Garantía</a>
+        <a href="#seccionDevoluciones">Devoluciones</a>
         </div>
+    </section>
 
-        </div>
-        <div class="col-12">
-          <label for="inputAddress" class="form-label">Direccion</label>
-          <input type="text" class="form-control" id="inputAddress" placeholder="1234 calle">
-        </div>
+    <main>
+        <h2 id="seccionPagos">Métodos de pagos</h2>
+        <p>Aceptamos variadas formas de pago como:</p>
+        <ul>
+            <li>Transferencias cuenta Brou</li>
+            <li>Débito y cédito</li>
+            <ul>
+                <li>BROU Recompensa</li>
+                <li>Creditel</li>
+                <li>Crédito Directo</li>
+                <li>Cédito de la casa</li>
+                <li>Maestro</li>
+                <li>Master Card</li>
+                <li>Oca</li>
+                <li>Visa</li>
+            </ul>
+            <li>Agencias de cobranza</li>
+            <ul>
+                <li>Abitab</li>
+                <li>Red Pagos</li>
+            </ul>
+        </ul>
+
+        <h2 id="seccionEnvios">Envíos</h2>
+        <p>Envíos a todo el país dentro de las 24hs después de haber efectuado la compra.</p>
+        <ul>
+            <li>Sin costo para los envíos dentro de la Ciudad de Florida</li>
+            <li>Costo de envío a cargo del comprador para los pedidos fuera de la Ciudad de Florida</li>
+        </ul>
+        <h2 id="seccionGarantia">Garantía</h2>
         
-        <div class="col-md-6">
-          <label for="inputCity" class="form-label">Ciudad</label>
-          <input type="text" class="form-control" id="inputCity">
-        </div>
-        <div class="col-md-4">
-          <label for="inputState" class="form-label">Ciudad</label>
-          <select id="inputState" class="form-select">
-            <option selected>Elige tu ciudad...</option>
-            <option>...</option>
-            <option value="Artigas">Artigas</option>
-            <option value="Canelones">Canelones</option>
-            <option value="Cerro Largo">Cerro Largo</option>
-            <option value="Colonia">Colonia</option>
-            <option value="Durazno">Durazno</option>
-            <option value="Flores">Flores</option>
-            <option value="Florida">Florida</option>
-            <option value="Lavalleja">Lavalleja</option>
-            <option value="Maldonado">Maldonado</option>
-            <option value="Montevideo">Montevideo</option>
-            <option value="Paysandú">Paysandú</option>
-            <option value="Río Negro">Río Negro</option>
-            <option value="Rivera">Rivera</option>
-            <option value="Rocha">Rocha</option>
-            <option value="Salto">Salto</option>
-            <option value="San José">San José</option>
-            <option value="Soriano">Soriano</option>
-            <option value="Tacuarembó">Tacuarembó</option>
-            <option value="Treinta y Tres">Treinta y Tres</option>
-          </select>
-        </div>
-        <div class="col-md-2">
-          <label for="inputcpostal" class="form-label">Codigo Postal</label>
-          <input type="number" class="form-control" id="inputcpostal">
-        </div>
-        <div class="col-12">
-            <div class="form-check"> Mensaje: <br>
-            <textarea name="mensaje" id="mensaje" cols="50" rows="10"></textarea>
-            </div>
-          </div>
-        <div class="col-12">
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" id="gridCheck">
-            <label class="form-check-label" for="gridCheck">
-               Deseo recibir ofertas email
-            </label>
-          </div>
-        </div>
-        <div class="col-12">
-          <button type="submit" class="btn btn-primary">Sign in</button>
-        </div>
-      </form>
-   </section>
+        <h3>Alcance de la garantía</h3>
+           <p>La garantía brindada por la empresa es a nivel nacional y debe hacerse efectiva en nuestro local. <br>
+            
+            <h3>Cobertura de la garantía</h3>
+            <p>La garantía es efectiva en caso de que el producto afectado posea fallas o defectos en su fabricación o un funcionamiento irregular del mismo. <br>
+            En caso de las pantallas las mismas poseen una tolerancia a los píxeles defectuosos según ubicación o especificación del fabricante. <br>
+            Queda por fuera y anula la garantía cualquier mal funcionamiento relacionado a accidentes, negligencia, mal uso, daño físico (golpes, ralladuras, quemaduras, partes faltantes, manchas, etc.), violación de los sellos de garantía, marcas propias de la apertura no autorizada del producto, agentes externos (descargas eléctricas, humedad, polvo, químicos, etc.) o un uso no indicado o fuera de las especificaciones del producto. <br>
+            Los accesorios (cables, baterías, fuentes de poder, cargadores, adaptadores, etc.) del producto entregado poseen garantía de funcionamiento limitada de 3 días hábiles desde la compra. <br>
+            En ningún caso el software o el sistema del producto están cubiertos por la garantía ya que el mismo puede ser afectado por malware, instalación o actualización incorrecta de algún programa o el sistema mismo, o cambio por otro, así mismo la empresa no es responsable por software instalado por terceros o el cliente mismo.</p>
 
+            <h3>Documentación necesaria</h3>
+            <p>Es necesario para el ejercicio de la garantía presentar siempre la boleta de compra original o certificado de garantía de la empresa. <br> La empresa se reserva el derecho de aceptar la garantía si no se presenta dicho documento.</p>
+
+            <h3>Estado del producto</h3>
+            <p>Para ejercer la garantía del producto adquirido en INGCO, en adelante la empresa, es necesario tener en cuenta que el producto y todo el pack del mismo (accesorios, cables, baterías, manuales, caja de cartón etc.) deben estar en las mismas condiciones en las que fue entregado en un inicio por la empresa.</p>
+
+            <h2 id="seccionDevoluciones">Devoluciones</h2>
+
+            <h3>Legal</h3>
+            <p>Legalmente dispone de 2 días hábiles desde la compra para la devolución del producto o el cambio del mismo por otro, siempre y cuando el producto a entregar esté en las condiciones indicadas en el punto anterior. La empresa se reserva el derecho de recibir el producto si el estado del mismo no es el indicado y en caso necesario la empresa deberá verificar el correcto funcionamiento del mismo.</p>
+
+
+    </main>
+   
 
     <footer id="pie" class="container">
         <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-12">
                 <a href="ayuda.html"><h3>¿Cómo podemos ayudar?</h3></a>
                 <ul>
-                    <li><a href="ayuda.html#seccionPagos">Métodos de pagos</a></li>
-                    <li><a href="ayuda.html#seccionEnvios">Envios</a></li>
-                    <li><a href="ayuda.html#seccionGarantia">Garantía</a></li>
-                    <li><a href="ayuda.html#seccionDevoluciones">Devoluciones</a></li>
+                    <li><a href="#seccionPagos">Métodos de pagos</a></li>
+                    <li><a href="#seccionEnvios">Envios</a></li>
+                    <li><a href="#seccionGarantia">Garantía</a></li>
+                    <li><a href="#seccionDevoluciones">Devoluciones</a></li>
                 </ul>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12">
