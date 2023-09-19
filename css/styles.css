@@ -26,11 +26,21 @@ body {
     flex-direction: row;
 }
 
-i {
+.col-4 a i {
     color: whitesmoke;
+    font-size: medium;
+    transition: transform 0.3s;
 }
 
+.col-4 a i:hover {
+    font-size: large;
+}
 
+@media (min-width: 992px){
+    .navbar-expand-lg {
+        flex-wrap: wrap;
+    }
+}
 
 .navbar {
     background-color: var(--colorPrincipal)!important;
@@ -41,12 +51,24 @@ i {
 .navbar-brand  {
     color: whitesmoke;
     font-weight: bold;
+
 }
+
+
 
 
 .navbar-toggler {
     color: rgb(245, 245, 245);
     border-color: whitesmoke;
+}
+
+.navbar-nav {
+    --bs-nav-link-color: whitesmoke;
+}
+
+
+.nav-item :hover {
+    font-weight: bold;
 }
 
 .btn {
@@ -167,6 +189,18 @@ button {
     text-decoration: none;
     color: whitesmoke;
 }
+
+footer a :hover {
+    font-weight: bold;
+}
+
+footer li :hover {
+    font-weight: bold;
+}
+
+
+
+
 
 
 
